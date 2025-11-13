@@ -1,0 +1,26 @@
+name: "khmer-tax-chatbot"
+title: "Building AI Chatbot for Tax Agent in Khmer Language"
+description: "Internship defense presentation on developing an AI chatbot for tax agents in Cambodia using Qwen 3 and QLoRA fine-tuning."
+output_dir: "docs"
+
+include:
+  - "InternI4.html"
+  - "manifest.json"
+  - "itc_logo.png"
+  - "CADT.png"
+  - "xaringan_themer.css"
+
+output:
+  xaringan::moon_reader:
+    self_contained: true
+    lib_dir: libs
+    css: ["default", "xaringan_themer.css"]
+    seal: false
+    nature:
+      ratio: "4:3"
+      autoplay:
+        interval: 0
+        loop: false
+      highlightStyle: "github"
+      highlightLines: true
+      countIncrementalSlides: false
